@@ -1,0 +1,157 @@
+.list-items {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  align-items: center;
+  line-height: 50px;
+  padding: 10px 10px;
+  margin-left: 5%;
+  margin-top: 3%;
+  height: auto;
+  border-radius: 10px 10px;
+  /* padding-bottom: 100px; */
+}
+
+.items {
+  border: 2px solid rgb(10, 10, 10);
+  width: 100%;
+  text-align: center;
+  background-color: rgb(233, 108, 245);
+  margin-bottom: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 10px 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.items:hover {
+  background-color: white;
+  color: black;
+}
+
+.form-items {
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 3%;
+  height: auto;
+  border: 2px solid rgb(189, 188, 188);
+  border-radius: 10px 10px;
+  padding-top: 60px;
+  position: relative;
+
+}
+
+#main-con {
+  display: flex;
+  margin-top:20px;
+}
+
+#main-conuser {
+  display: flex;
+  margin-top: 100px;
+  /* background-color: red; */
+}
+
+.formfields {
+  width: 80%;
+  margin-left: 10%;
+  /* margin-top: 5%; */
+}
+
+.selectoptions {
+  /* margin-top: 20px; */
+  width: 100%;
+}
+
+.radios {
+  font-size: 20px;
+}
+
+.textareaa {
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+
+.all {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btnoption {
+  width: 50%;
+  margin-left: 25%;
+}
+
+#create-form {
+  display: none;
+}
+#backbtn {
+  display: flex;
+  background-color: rgb(240, 225, 88);
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.formbtns {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  flex-wrap: wrap;
+}
+
+.formfieldssaved {
+  margin-top: 20px;
+  width: 25%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(173, 252, 70);
+  border: 2px solid grey;
+  border-radius: 10px 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.formfieldssaved:hover {
+  background-color: white;
+}
+
+.deleteform{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px;
+  border: 3px solid rgb(109, 26, 243);
+}
+
+.deleteform:hover{
+  background-color: rgb(144, 9, 255);
+  color: white;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
